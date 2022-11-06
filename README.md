@@ -1,7 +1,6 @@
 
 # amcloud
 <!-- badges: start -->
-[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/amcloud.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/amcloud)
 [![R-CMD-check](https://github.com/younessbahi/amcloud/workflows/R-CMD-check/badge.svg)](https://github.com/younessbahi/amcloud/actions)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
