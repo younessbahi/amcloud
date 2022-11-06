@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NOTE: This script is a modification of the r-lib/actions standard cehcking script and the public-private sync script, on which it piggybacks to detect when it's in a private repo and can therefore skip some or even all tests. It also builds and uploads binaries for Windows and MacOS.
 
 # For help debugging build failures open an issue on the RStudio community with the 'github-actions' tag.
@@ -158,3 +159,45 @@ jobs:
         with:
           name: ${{ runner.os }}-r${{ matrix.config.r }}-results
           path: check
+=======
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+#
+# See https://github.com/r-lib/actions/tree/master/examples#readme for
+# additional example workflows available for the R community.
+
+name: R-CMD-check
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        r-version: ['3.6.3', '4.1.1']
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up R ${{ matrix.r-version }}
+        uses: r-lib/actions/setup-r@f57f1301a053485946083d7a45022b278929a78a
+        with:
+          r-version: ${{ matrix.r-version }}
+      - name: Install dependencies
+        run: |
+          install.packages(c("remotes", "rcmdcheck"))
+          remotes::install_deps(dependencies = TRUE)
+        shell: Rscript {0}
+      - name: Check
+        run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
+        shell: Rscript {0}
+>>>>>>> 910b45498eef20bb90fe19480fac703c53a3936f
