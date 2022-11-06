@@ -45,7 +45,7 @@ amcloud(
     maxCount     = 400
 )
 ```
-![./amcloud/blob/main/figures/acloud-01.png](https://github.com/younessbahi/amcloud/blob/main/figures/acloud-01.png?raw=true)
+![./amcloud/blob/main/figures/amcloud-01.png](https://github.com/younessbahi/amcloud/blob/main/figures/amcloud-01.png?raw=true)
 
 
 ### This is a basic example Using structured data:
