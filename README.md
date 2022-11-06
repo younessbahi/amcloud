@@ -2,7 +2,7 @@
 # amcloud
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/younessbahi/amcloud/workflows/R/badge.svg)](https://github.com/younessbahi/amcloud/actions)
-[![R-CMD-check.yml](https://github.com/younessbahi/amcloud/actions/workflows/R-CMD-check.yml/badge.svg?branch=main)](https://github.com/younessbahi/amcloud/actions/workflows/R-CMD-check.yml)
+[![R-CMD-check](https://github.com/younessbahi/amcloud/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/younessbahi/amcloud/actions)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
