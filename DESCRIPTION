@@ -1,0 +1,17 @@
+Package: amcloud
+Title: Wrapper Function For AmCharts Word Cloud
+Version: 1.0.0
+Authors@R:
+    person("Youness", "Bahi", , "DAyounessbahi@gmail.com", role = c("aut", "cre"))
+Description: Create interactive wordcloud by amCharts.js.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9001
+Imports:
+    fs,
+    glue,
+    htmltools,
+    htmlwidgets,
+    jsonlite
