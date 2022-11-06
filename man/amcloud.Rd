@@ -20,7 +20,7 @@ amcloud(
 )
 }
 \arguments{
-\item{x}{a text string that can be retrieve for the words cloud}
+\item{x}{a text string that can be retrieve for the words cloud.}
 
 \item{maxFontSize}{the size of the biggest words. It can be set in pixels, or in Percent; \strong{When using percent value, the lower the percent value the bigger the size} default to \code{30}.}
 

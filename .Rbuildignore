@@ -1,3 +1,5 @@
 ^amcloud\.Rproj$
 ^LICENSE\.md$
 .idea
+^data-raw$
+^figures$
