@@ -2,7 +2,7 @@
 % Please edit documentation in R/amcloud.R
 \name{amcloud}
 \alias{amcloud}
-\title{Create wordcloud by amCharts.js}
+\title{Create Wordcloud From Text}
 \usage{
 amcloud(
   x,
@@ -22,30 +22,30 @@ amcloud(
 \arguments{
 \item{x}{a text string that can be retrieve for the words cloud}
 
-\item{maxFontSize}{the size of the biggest words. It can be set in pixels, or in Percent; \strong{When using percent value, the lower the percent value the bigger the size} default to 30.}
+\item{maxFontSize}{the size of the biggest words. It can be set in pixels, or in Percent; \strong{When using percent value, the lower the percent value the bigger the size} default to \code{30}.}
 
-\item{fontFamily}{character, default to 'Courier New'.}
+\item{fontFamily}{character, default to \code{'Courier New'}.}
 
-\item{accuracy}{numeric, How accurate Word Cloud will be when searching for suitable place for a word. The higher the accuracy - the more closely packed word will be. \strong{Please note, higher accuracy comes at a cost of performance. Find your middle ground}. default to 4.}
+\item{accuracy}{numeric, How accurate Word Cloud will be when searching for suitable place for a word. The higher the accuracy - the more closely packed word will be. \strong{Please note, higher accuracy comes at a cost of performance. Find your middle ground}. default to \code{4}.}
 
-\item{minWordLength}{numeric, default to 2.}
+\item{minWordLength}{numeric, default to \code{2}.}
 
-\item{maxCount}{numeric, default to 200.}
+\item{maxCount}{numeric, default to \code{200}.}
 
-\item{steps}{numeric, default to 25.}
+\item{steps}{numeric, default to \code{25}.}
 
 \item{rotation}{numeric, degree of rotation for the labels container.}
 
-\item{minColor}{character, min color hex code (example: #7f919e).}
+\item{minColor}{character, min color hex code. example: \verb{#7f919e}.}
 
-\item{maxColor}{character, max color hex code (example: #333333).}
+\item{maxColor}{character, max color hex code. example: \verb{#333333}.}
 
-\item{excludeWords}{character array, of words to exclude (example: c('word', 'to', 'remove')).}
+\item{excludeWords}{character array, of words to exclude. example: \code{c('word', 'to', 'remove')}.}
 
-\item{bgColor}{character, background color hex code, default to #ffffff.}
+\item{bgColor}{character, background color hex code, default to \verb{#ffffff}.}
 }
 \description{
-Function for Creating wordcloud from text
+Function for creating wordcloud from text
 }
 \author{
 Youness Bahi
