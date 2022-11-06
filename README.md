@@ -56,11 +56,13 @@ weighted <-
     weight = c(32, 38, 20, 81, 37, 25, 30, 20, 43)
   )
 
-amcloud2(
-    data         = weighted,
-    minColor     = '#b0b8c040',
-    maxColor     = '#faf9f8', 
-    bgColor      = '#393939'
+amcloud::amcloud2(
+  data       = weighted,
+  rotation   = - 25,
+  minColor   = '#f5f6f950',
+  maxColor   = '#f0f1f1',
+  fontFamily = 'Roboto Condensed',
+  bgColor    = '#393939'
 )
 ```
 
