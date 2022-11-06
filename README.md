@@ -1,7 +1,8 @@
 
 # amcloud
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/younessbahi/amcloud/workflows/R-CMD-check/badge.svg)](https://github.com/younessbahi/amcloud/actions)
+[![R-CMD-check](https://github.com/younessbahi/amcloud/actions/workflows/R-CMD-check/badge.svg)](https://github.com/younessbahi/amcloud/actions/workflows/r.yml)
+[![R](https://github.com/younessbahi/amcloud/actions/workflows/r.yml/badge.svg?branch=main)](https://github.com/younessbahi/amcloud/actions/workflows/r.yml)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
