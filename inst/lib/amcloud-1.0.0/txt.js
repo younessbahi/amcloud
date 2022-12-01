@@ -50,3 +50,8 @@ series.heatRules.push({
 
 var data = document.querySelector('#chartdiv').getAttribute('data-text')
 series.text = data;
+
+// Enable export
+chart.exporting.menu = new am4core.ExportMenu();
+chart.exporting.menu.align = "right";
+chart.exporting.menu.verticalAlign = "top";

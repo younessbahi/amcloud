@@ -52,3 +52,9 @@ series.dataFields.value = "weight";
 
 var data_ = document.querySelector('#chartdiv').getAttribute('data-obj')
 series.data = JSON.parse(data_);
+
+
+// Enable export
+chart.exporting.menu = new am4core.ExportMenu();
+chart.exporting.menu.align = "right";
+chart.exporting.menu.verticalAlign = "top";

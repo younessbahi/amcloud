@@ -45,6 +45,7 @@ amcloud <- function(x, maxFontSize = 30, fontFamily = 'Courier New', accuracy = 
           htmltools::includeScript(paste0(fs::path_package('amcloud'), "/lib/amcloud-1.0.0/charts/http_www.amcharts.com_lib_4_charts.js")),
           htmltools::includeScript(paste0(fs::path_package('amcloud'), "/lib/amcloud-1.0.0/wordCloud/http_www.amcharts.com_lib_4_plugins_wordCloud.js")),
           htmltools::includeScript(paste0(fs::path_package('amcloud'), "/lib/amcloud-1.0.0/animated/http_www.amcharts.com_lib_4_themes_animated.js")),
+          htmltools::includeCSS(paste0(fs::path_package('amcloud'), "/css/amcloud4_main.css")),
           htmltools::tags$div(
             id                = "chartdiv",
             style             = "width: 100%; height: 100vh;",
@@ -60,7 +61,8 @@ amcloud <- function(x, maxFontSize = 30, fontFamily = 'Courier New', accuracy = 
             `data-maxcolor`   = maxColor,
             `data-exclude`    = exclude
           ),
-          htmltools::includeScript(paste0(fs::path_package('amcloud'), "/lib/amcloud-1.0.0/txt.js"))
+          htmltools::includeScript(paste0(fs::path_package('amcloud'), "/lib/amcloud-1.0.0/txt.js")),
+          htmltools::includeScript(paste0(fs::path_package('amcloud'), "/js/amcloud4_index.js"))
         )
       )
     )

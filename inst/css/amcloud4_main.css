@@ -1,0 +1,19 @@
+.amcharts-amexport-item {
+    border: none;
+    background: #51525110;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: small;
+}
+.amcharts-amexport-item:hover {
+    background: #51525130;
+    border: none;
+}
+.amcharts-amexport-menu * {
+    box-sizing: border-box;
+    transition: all 100ms ease-in-out 0s;
+    fill: rgb(0, 0, 0);
+    margin-bottom: -4px !important;
+}
+.amcharts-amexport-item.amcharts-amexport-item-level-0 {
+    min-height: auto !important;
+}
